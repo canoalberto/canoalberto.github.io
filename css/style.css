@@ -1,0 +1,35 @@
+body{
+	padding-top: 60px;
+	font-family: Asap, sans-serif;
+}
+
+a{
+  color: #000000;
+}
+
+.anchor{
+  display: block;
+  height: 60px;
+  margin-top: -60px;
+  visibility: hidden;
+}
+
+.bottom {
+	padding-top: 50px;
+	border-bottom: 2px solid #ccc;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.8);
+}
+
+.navbar-dark .navbar-nav .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.img-wrap {    
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    -webkit-mask-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));
+}
